@@ -16,4 +16,4 @@ exports.text = '#1D1D1D';
 
 exports.textLight = '#8E8E8E'
 
-exports.background = '#F6FF6'
+exports.background = '#FBFBFB'

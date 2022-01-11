@@ -3,6 +3,7 @@ import {View, Text, StyleSheet, Image} from 'react-native'
 import userPic from '../assets/images/man.jpg';
 import Notificationbell from '../assets/icons/Notificationbell';
 import { textLight } from '../assets/color';
+import Scan from '../assets/icons/Scan'
 
 const TopView =()=>{
 	return(
@@ -14,6 +15,7 @@ const TopView =()=>{
 			<View style={styles.iconContainer}>
 				<Notificationbell/>
 				<View style={styles.line}/>
+				<Scan/>
 			</View>
 		</View>
 	)
@@ -43,7 +45,9 @@ const styles = StyleSheet.create({
 	},
 	iconContainer:{
 		flexDirection: 'row',
-		alignSelf: 'center'
+		alignSelf: 'center',
+		width: 70,
+		justifyContent:'space-evenly'
 	}
   });
 

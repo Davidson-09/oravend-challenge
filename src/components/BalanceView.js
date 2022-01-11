@@ -1,13 +1,17 @@
 import React from 'react'
 import {View, StyleSheet, Text} from 'react-native'
 import {primary, primaryLight} from '../assets/color'
+import Eye from '../assets/icons/Eye'
 
 function BalanceView() {
 	return (
 		<View style={styles.balanceContainer}>
 			<Text style={{textAlign:'center', fontSize:13}}>TOTAL TOKEN BALANCE</Text>
-			<View>
+			<View style={{flexDirection:'row', justifyContent:'center'}}>
 				<Text style={styles.valueText}>50,000 ORV</Text>
+				<View style={{alignSelf:'center', marginLeft:10}}>
+					<Eye/>
+				</View>
 			</View>
 			<View style={{flexDirection: 'row', justifyContent:'space-evenly', marginTop:70}}>
 				<View style={styles.button}>
