@@ -8,7 +8,7 @@ function QuickAccessTab() {
 			<Text style={{color:text, fontSize: 17, fontWeight: 'bold'}}>Quick Actions</Text>
 			<View style={styles.actionContainer}>
 				<View>
-					<View style={{...styles.actions, backgroundColor: primaryLight}}>
+					<View style={{...styles.actions, backgroundColor: '#AFAAD0'}}>
 
 					</View>
 					<Text style={styles.actionText}>Marketplace</Text>
