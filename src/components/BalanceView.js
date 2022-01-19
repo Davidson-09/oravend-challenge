@@ -6,19 +6,19 @@ import Eye from '../assets/icons/Eye'
 function BalanceView() {
 	return (
 		<View style={styles.balanceContainer}>
-			<Text style={{textAlign:'center', fontSize:13}}>TOTAL TOKEN BALANCE</Text>
+			<Text style={{textAlign:'center', fontSize:13, color:'white'}}>TOTAL TOKEN BALANCE</Text>
 			<View style={{flexDirection:'row', justifyContent:'center'}}>
 				<Text style={styles.valueText}>50,000 ORV</Text>
 				<View style={{alignSelf:'center', marginLeft:10}}>
 					<Eye/>
 				</View>
 			</View>
-			<View style={{flexDirection: 'row', justifyContent:'space-evenly', marginTop:70}}>
+			<View style={{flexDirection: 'row', justifyContent:'space-evenly', marginTop:50}}>
 				<View style={styles.button}>
-					<Text style={{textAlign:'center'}}>Buy</Text>
+					<Text style={{textAlign:'center', color:'white'}}>Buy</Text>
 				</View>
 				<View style={styles.button}>
-					<Text style={{textAlign:'center'}}>Send</Text>
+					<Text style={{textAlign:'center', color:'white'}}>Send</Text>
 				</View>
 			</View>
 		</View>
@@ -28,14 +28,14 @@ function BalanceView() {
 const styles = StyleSheet.create({
 	balanceContainer: {
 	  backgroundColor: primary,
-	  height: 200,
 	  borderRadius: 20,
-	  paddingTop: 20,
+	  padding: 20,
 	  fontWeight: 'bold'
 	},
 	valueText:{
-		fontSize: 40,
-		textAlign: 'center'
+		fontSize: 30,
+		textAlign: 'center',
+		color: 'white'
 	},
 	button:{
 		backgroundColor: primaryLight,

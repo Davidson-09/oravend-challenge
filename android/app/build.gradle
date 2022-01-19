@@ -153,6 +153,16 @@ android {
             keyPassword 'android'
         }
     }
+
+	signingConfigs {
+    release {
+      storeFile file('oravend.keystore')
+      storePassword 'password'
+      keyAlias 'challenge'
+      keyPassword 'oravend'
+    }
+  }
+
     buildTypes {
         debug {
             signingConfig signingConfigs.debug

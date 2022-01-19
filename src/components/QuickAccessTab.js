@@ -68,8 +68,9 @@ const styles = StyleSheet.create({
 	actionText:{
 		color: text,
 		textAlign: 'center',
-		fontWeight: 'bold',
-		marginTop: 5
+		marginTop: 5,
+		fontSize: 10,
+		fontWeight:'bold'
 	}
   });
 

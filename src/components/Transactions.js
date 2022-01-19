@@ -14,6 +14,8 @@ function Transactions() {
 			<View style={{marginTop: 10}}>
 				<Transactionitem/>
 				<Transactionitem2/>
+				<Transactionitem2/>
+				<Transactionitem/>
 			</View>
 		</View>
 	)
@@ -21,7 +23,8 @@ function Transactions() {
 
 const styles = StyleSheet.create({
 	transactionsContainer:{
-		marginTop: 30
+		marginTop: 30,
+		marginBottom: 150
 	},
 	titleContainer: {
 	  flexDirection: 'row',

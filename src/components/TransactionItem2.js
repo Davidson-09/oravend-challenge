@@ -14,7 +14,7 @@ function Transactionitem() {
 				</View>
 				<Text style={{color: text, alignSelf: 'center', fontWeight:'bold'}}>Deets</Text>
 			</View>
-			<Text style={{color:'#F10000', alignSelf:'center'}}>20.00 ORV</Text>
+			<Text style={{color:'#F10000', alignSelf:'center'}}>243.00 USD</Text>
 		</View>
 	)
 }
